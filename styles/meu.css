@@ -4,6 +4,11 @@ body {
     padding: 0;
     background-color: #5cd398;
 }
+.img{
+    display: flex;
+    justify-content: flex-start;
+    
+}
 
 header {
     background-color: #9d2323;
