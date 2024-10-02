@@ -4,18 +4,31 @@ body {
     padding: 0;
     background-color: #e9edf0;
 }
-.img{
-    display: flex;
-    justify-content: flex-start;
-    left: 10;
-    
-}
 
 header {
     background-color: #1f1818;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    margin: 0.5rem 0;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header img {
+    display: block;
+    margin: 1rem auto;
 }
 
 nav ul {
@@ -33,12 +46,16 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
+main {
     padding: 2rem;
+}
+
+section {
     margin: 1rem 0;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
 }
 
 footer {
